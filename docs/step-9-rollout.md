@@ -43,7 +43,7 @@ else
 | Tahap | Audiens | Kriteria pindah ke tahap berikutnya |
 |---|---|---|
 | **0. Dev** | Engineer aktif | Unit + integration test green di Windows |
-| **1. Internal alpha** | Tim Hermes (10 user) | 1 minggu tanpa regresi; metric: 0 disconnect tak terjelaskan, < 100ms p95 RPC |
+| **1. Internal alpha** | Tim Hermes (10 user) | 1 minggu tanpa regresi; metric: 0 disconnect tak terjelaskan, &lt; 100ms p95 RPC |
 | **2. Closed beta** | 50 user pilihan (flag ON via installer override) | 2 minggu; bug rate ≤ legacy |
 | **3. GA opt-in** | Semua user, flag default OFF, dapat di-toggle | 4 minggu, ≥ 30% opt-in tanpa bug critical |
 | **4. GA default ON** | Default ON, legacy masih bisa di-toggle | 4 minggu |
@@ -73,7 +73,7 @@ Log struktural dengan correlation id (gunakan `Activity` / `System.Diagnostics.A
 | Bug security ditemukan di transport | Hotfix release; rollback flag ke OFF |
 | Performance regression | Profile dulu, jangan rollback otomatis |
 
-Selama feature flag masih ada, rollback < 5 menit.
+Selama feature flag masih ada, rollback &lt; 5 menit.
 
 ## 9.5 Cleanup setelah GA stabil
 
@@ -96,7 +96,7 @@ Setelah tahap 5:
 
 - [ ] Feature flag wired di kedua sisi
 - [ ] Metrics + struktur log siap
-- [ ] Rollback drill di staging — < 5 menit
+- [ ] Rollback drill di staging — &lt; 5 menit
 - [ ] Release notes draft
 - [ ] Support team trained
 - [ ] Go/no-go meeting per tahap

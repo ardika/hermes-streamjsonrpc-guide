@@ -32,7 +32,7 @@ StreamJsonRpc agnostic terhadap transport — ia hanya butuh **dua `Stream`** (i
 ## Performance & maturity
 
 - Dipakai produksi di IDE-class software (Visual Studio).
-- Overhead: JSON-RPC ~3-5% lebih lambat dari MessagePack, tapi tetap << network I/O cost untuk IPC desktop.
+- Overhead: JSON-RPC ~3-5% lebih lambat dari MessagePack, tapi tetap jauh lebih kecil dari network I/O cost untuk IPC desktop.
 - Throughput cukup tinggi untuk use case Hermes (perintah lifecycle, log streaming).
 
 ## Lisensi

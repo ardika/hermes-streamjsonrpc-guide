@@ -130,12 +130,12 @@ public async Task ConcurrentCalls_NoRaceCondition()
 
 ## 8.6 Manual test checklist (sebelum hapus legacy code)
 
-- [ ] App start, RPC connect dalam < 2 detik
+- [ ] App start, RPC connect dalam &lt; 2 detik
 - [ ] Start/Stop XDR → status berubah di UI
 - [ ] Install/Activate/Start/Stop RMM → semua sukses
 - [ ] Start SASE dengan config WG valid → tunnel up, event `OnSaseStatusChanged(Connected)` muncul
 - [ ] Stop SASE → tunnel down, event `Disconnected`
-- [ ] Service restart saat UI running → UI auto-reconnect dalam < 5 detik
+- [ ] Service restart saat UI running → UI auto-reconnect dalam &lt; 5 detik
 - [ ] Kill UI process saat RPC call in-flight → server tidak crash
 - [ ] Multiple rapid Start/Stop SASE → tidak ada `WgRename` race
 - [ ] Network namespace di Linux container (opsional, future macOS)
