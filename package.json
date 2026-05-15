@@ -12,13 +12,12 @@
     "serve": "docusaurus serve"
   },
   "overrides": {
-    "webpackbar": "6.0.1"
+    "webpack": "5.93.0"
   },
   "resolutions": {
-    "webpackbar": "6.0.1"
+    "webpack": "5.93.0"
   },
   "dependencies": {
-    "webpackbar": "6.0.1",
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.0.0",
