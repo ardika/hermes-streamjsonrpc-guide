@@ -8,10 +8,6 @@ title: Introduction
 
 Panduan **step-by-step** untuk memigrasi IPC antar-proses pada **Hermes Network 360 (Avalonia)** dari implementasi Named Pipe + JSON ad-hoc saat ini ke **StreamJsonRpc** dengan transport factory **cross-platform (Windows + macOS)**.
 
-## Audiens
-
-Programmer .NET / C# yang akan mengerjakan migrasi. Anda **tidak** perlu pengalaman sebelumnya dengan StreamJsonRpc atau JSON-RPC 2.0 — semua dijelaskan dari nol.
-
 ## Hasil akhir yang ditargetkan
 
 Setelah mengikuti seluruh guide ini, codebase Hermes akan memiliki:
