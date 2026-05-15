@@ -30,17 +30,6 @@ Setelah mengikuti seluruh guide ini, codebase Hermes akan memiliki:
 
 Migrasi ini **hanya menyentuh layer transport IPC**, bukan logika bisnis.
 
-## Estimasi waktu
-
-| Tahap | Durasi |
-|---|---|
-| Step 1–3 (setup contract & transport) | 1 hari |
-| Step 4–5 (refactor server & client) | 2 hari |
-| Step 6 (event push) | 0.5 hari |
-| Step 7 (security hardening) | 1 hari |
-| Step 8–9 (testing & rollout) | 1.5 hari |
-| **Total** | **~6 hari kerja** |
-
 ## Cara membaca guide ini
 
 Baca berurutan. Setiap step membangun di atas step sebelumnya. Step yang independent diberi tag `independent`.
