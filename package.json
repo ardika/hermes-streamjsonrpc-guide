@@ -11,7 +11,14 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve"
   },
+  "overrides": {
+    "webpackbar": "6.0.1"
+  },
+  "resolutions": {
+    "webpackbar": "6.0.1"
+  },
   "dependencies": {
+    "webpackbar": "6.0.1",
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.0.0",
